@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* , html{
+  margin: 0;
+  padding: 0;
+}
+
+.Geral-Page {
+  width: 1440px;
+  display: flex;
+}
+
+.Side-Bar {
+  width: 210px;
+  height: 1936px;
+  background-color: rgba(3, 54, 61, 1);
+}
+
+.Soon-TiFlux {
+  padding: 1em 0 0 1em;
+}
+
+.Dashboard {
+  height: 40px;
+  display: flex;
+  padding-top: 0.8em;
+}
+
+.Icon-Speed {
+  color: rgba(255, 255, 255, 1);
+  padding: 1em 0 0 1em;
+}
+
+.Text-Dashboard {
+  color: rgba(255, 255, 255, 1);
+  padding-left: 1em;
+  font-size: 14px;
+  font-family: 'Inter';
+  line-height: 4em;
+}
+
+.Div-Footer {
+  min-height: 1830px;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+
+footer{
+  padding-top: 8px;
+  border-top: 2px solid rgba(19, 27, 36, 1);
+}
+
+footer > svg {
+  margin-left: 10px;
+}
+
+.Main {
+  min-width: 1232px;
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  min-width: 1232px;
+  height: 48px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 0.65);  
+}
+
+.User {
+  padding-right: 2em;
+  font-family: 'Inter';
+}
+
+.gutter-row {
+  margin-top: 24px;
+}
+
+
+.gutter-row-1 {
+  margin: 24px 0 0 24px;
+}
+
+.Title {
+  position: absolute;
+  left: 42px;
+  top: 25px;
+}
+
+.Numbers {
+  position: absolute;
+  left: 40px;
+  top: 50px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 2em;
+  font-family: 'Inter';
+}
+
+.Div-Table {
+  width: 1184px;
+  height: 429px;
+  background-color: rgba(255, 255, 255, 1);
+  margin: 24px 0 0 24px;
+}
+
+.Search {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Text {
+  display: flex;
+  align-items: end;
+  font-size: 1em;
+  font-family: 'Inter';
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+  margin: 30px 0 0 24px;
+}
+
+.Box-Search {
+  margin: 24px 30px 0 0;
+}
+
+.Table {
+  width: 1120px;
+  height: 327.9px;
+  margin: 24px 0 0 24px;
+}
+
